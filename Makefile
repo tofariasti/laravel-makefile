@@ -36,3 +36,7 @@ filament-resource:
 
 filament-shield-if:
 	./vendor/bin/sail php artisan shield:install --fresh
+
+#-> LIVEWIRE
+livewire-mc:
+	./vendor/bin/sail artisan make:livewire
